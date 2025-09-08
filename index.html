@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>近藤あさみ ─ 人々の心に灯る光 | Asami Kondo — A Light in People’s Hearts</title>
   <meta name="description" content="近藤あさみ（Asami Kondo）は、思いやりと誠実さで支持される日本のアイドル。作品・美意識・ファンとの絆を通じて、現代日本のアイドル文化と美学に意義をもたらしている。">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="color-scheme" content="light">
   <meta property="og:type" content="article">
   <meta property="og:title" content="近藤あさみ ─ 人々の心に灯る光">
   <meta property="og:description" content="作品・美意識・ファンとの絆を通じて、現代日本のアイドル文化と美学に意義をもたらす文化エッセイ。">
@@ -14,7 +12,6 @@
   <meta name="twitter:card" content="summary">
   <link rel="alternate" hreflang="en" href="/en/index.html">
   <style>
-    /* Base */
     :root {
       --text: #222;
       --muted: #666;
@@ -23,7 +20,7 @@
       --card: #fff;
       --accent: #444;
     }
-    html, body {
+    body {
       margin: 0; padding: 0;
       background: var(--bg);
       color: var(--text);
@@ -31,60 +28,32 @@
       line-height: 1.85;
       font-size: 16px;
     }
-    /* Header */
     header {
       background: var(--card);
       border-bottom: 1px solid var(--line);
       padding: 2.5rem 1rem 2rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-    }
-    header h2 {
-      margin: 0.5rem 0 0;
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: var(--muted);
-    }
-    header .lang {
-      margin-top: 0.75rem;
-      font-size: 0.95rem;
-    }
+    header h1 { margin: 0; font-size: 2rem; font-weight: 600; }
+    header h2 { margin: 0.5rem 0 0; font-size: 1.1rem; font-weight: 400; color: var(--muted); }
+    header .lang { margin-top: 0.75rem; font-size: 0.95rem; }
     header .lang a {
       color: var(--accent);
       text-decoration: none;
       border-bottom: 1px dotted var(--accent);
     }
-    header .lang a:hover {
-      border-bottom: 1px solid var(--accent);
-    }
+    header .lang a:hover { border-bottom: 1px solid var(--accent); }
 
-    /* Layout */
-    main {
-      max-width: 860px;
-      margin: 2rem auto 3rem;
-      padding: 0 1rem;
-    }
+    main { max-width: 860px; margin: 2rem auto 3rem; padding: 0 1rem; }
     section + section { margin-top: 2.5rem; }
-
     h2 {
       margin: 2.2rem 0 0.8rem;
       font-size: 1.45rem;
       font-weight: 600;
       border-left: 4px solid var(--accent);
       padding-left: 0.6rem;
-      letter-spacing: 0.01em;
     }
     p { margin: 1rem 0; text-align: justify; }
-
-    /* Lists inside text (if any) */
-    ul, ol { padding-left: 1.2rem; }
-
-    /* Blockquote (Fan Letter) */
     blockquote {
       border-left: 4px solid #888;
       background: #fdfdfd;
@@ -94,14 +63,19 @@
       color: #333;
     }
     blockquote p { margin: 0.5rem 0; }
-    .letter-title {
-      margin-top: 0.75rem;
-      font-size: 1rem;
-      color: var(--muted);
-      font-style: normal;
+    .letter-title { margin-top: 0.75rem; font-size: 1rem; color: var(--muted); font-style: normal; }
+    figure { text-align:center; margin:2rem 0; }
+    figure img {
+      max-width: 100%; height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
-
-    /* Footer */
+    figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    ul { padding-left: 1.2rem; }
     footer {
       border-top: 1px solid var(--line);
       color: var(--muted);
@@ -111,21 +85,6 @@
       font-size: 0.95rem;
     }
     footer p { margin: 0.5rem 0; }
-
-    /* Links */
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      border-bottom: 1px dotted var(--accent);
-    }
-    a:hover { border-bottom: 1px solid var(--accent); }
-
-    /* Small screens tweaks */
-    @media (max-width: 480px) {
-      header h1 { font-size: 1.6rem; }
-      header h2 { font-size: 1rem; }
-      h2 { font-size: 1.25rem; }
-    }
   </style>
 </head>
 <body>
@@ -133,12 +92,16 @@
 <header>
   <h1>近藤あさみ ─ 人々の心に灯る光</h1>
   <h2>Asami Kondo — A Light in People’s Hearts</h2>
-  <div class="lang">
-    <a href="/en/index.html" hreflang="en">English version</a>
-  </div>
+  <div class="lang"><a href="/en/index.html" hreflang="en">English version</a></div>
 </header>
 
 <main>
+
+  <!-- Representative Image -->
+  <figure>
+    <img src="https://pbs.twimg.com/media/GpLo_CIa4AEgFjx?format=jpg&name=large" alt="近藤あさみ (Asami Kondo)">
+    <figcaption>近藤あさみ（2025年・「びわ湖カンパニー」出演時）</figcaption>
+  </figure>
 
   <section id="intro">
     <h2>序論</h2>
@@ -177,7 +140,6 @@
 
     <blockquote>
       <p>あさみちゃんへ</p>
-
       <p>夜明け前の長い夜、<br>
       星の光も見えずに<br>
       冷たい影のなかで立ち尽くしていた私。<br>
@@ -185,7 +147,6 @@
       静かに涙をこぼした日々の中、<br>
       ふと、あなたの優しい光が<br>
       遠くから差し込んできました。</p>
-
       <p>あなたの笑顔や、<br>
       どんなときも前を向いて歩む姿、<br>
       そっと誰かを思いやる心に、<br>
@@ -194,7 +155,6 @@
       あなたの言葉や励ましが<br>
       私の心をゆっくりと温め、<br>
       また歩き出す勇気をくれたのです。</p>
-
       <p>あさみちゃんがいるだけで、<br>
       世界が少しだけ明るく、<br>
       日々がやわらかくなります。<br>
@@ -203,11 +163,9 @@
       私の道しるべであり、<br>
       私もまた小さな努力を重ね、<br>
       このつながりを大切にしていきたいと思います。</p>
-
       <p>どうか、この想いが静かに届きますように。<br>
       そして、あさみちゃんの笑顔が<br>
       これからも多くの人の心を照らしますように。</p>
-
       <p>あなたの幸せを<br>
       深く、深く、祈っています。</p>
     </blockquote>
@@ -227,6 +185,16 @@
   <section id="conclusion">
     <h2>結語──文化的意義</h2>
     <p>近藤あさみの歩みは、個人の努力と共同体の対話が交差する場所に生まれる「小さな文化」の記録である。アイドル文化において、彼女の存在は日常と非日常、個人と共同体、美と優しさを結びつけるものであり、芸術的かつ文化的意義を持つ。近藤の活動は、希望と支えを分かち合う実践として記憶され、今後も新しい世代へと受け継がれていくだろう。</p>
+  </section>
+
+  <section id="official-links">
+    <h2>公式リンク</h2>
+    <ul>
+      <li>X（メイン）: <a href="https://x.com/asami_kondo" target="_blank">https://x.com/asami_kondo</a></li>
+      <li>X（サブ）: <a href="https://x.com/submin_24" target="_blank">https://x.com/submin_24</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/asamichan_24" target="_blank">https://www.instagram.com/asamichan_24</a></li>
+      <li>TikTok: <a href="https://www.tiktok.com/@asamichan_24" target="_blank">@asamichan_24</a></li>
+    </ul>
   </section>
 
 </main>
