@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Japanese main page -->
+  <url>
+    <loc>https://kondo-asami-legacy.github.io/</loc>
+    <lastmod>2025-09-09T00:00:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://kondo-asami-legacy.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kondo-asami-legacy.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kondo-asami-legacy.github.io/"/>
+    <image:image>
+      <image:loc>https://kondo-asami-legacy.github.io/images/kondo_asami_2025_biwako_company.jpeg</image:loc>
+      <image:title>近藤あさみ（2025年・びわ湖カンパニー出演時）</image:title>
+      <image:caption>近藤あさみ（2025年・「びわ湖カンパニー」出演時）</image:caption>
+      <image:license>https://x.com/asami_kondo/status/1914848975741706731</image:license>
+    </image:image>
+  </url>
+
+  <!-- English page -->
+  <url>
+    <loc>https://kondo-asami-legacy.github.io/en/</loc>
+    <lastmod>2025-09-09T00:00:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://kondo-asami-legacy.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kondo-asami-legacy.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kondo-asami-legacy.github.io/"/>
+    <image:image>
+      <image:loc>https://kondo-asami-legacy.github.io/images/kondo_asami_2025_biwako_company.jpeg</image:loc>
+      <image:title>Asami Kondo (2025, Biwako Company)</image:title>
+      <image:caption>Asami Kondo (2025, appearance in Biwako Company)</image:caption>
+      <image:license>https://x.com/asami_kondo/status/1914848975741706731</image:license>
+    </image:image>
+  </url>
+
+</urlset>
