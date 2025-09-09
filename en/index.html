@@ -48,6 +48,12 @@
     a { color:var(--accent); text-decoration:none; border-bottom:1px dotted var(--accent); }
     a:hover { border-bottom:1px solid var(--accent); }
     @media (max-width:480px) { header h1{font-size:1.6rem;} header h2{font-size:1rem;} h2{font-size:1.25rem;} }
+
+    .subnav { margin-top: 0.8rem; font-size: 0.98rem; }
+    .subnav a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+    .subnav a:hover { border-bottom: 1px solid var(--accent); }
+    .subnav .sep { color: var(--muted); margin: 0 0.4rem; }
+
   </style>
 
   <!-- JSON-LD structured data: Person + Article (English page) -->
@@ -111,8 +117,16 @@
 <header>
   <h1>Asami Kondo — A Light in People’s Hearts</h1>
   <h2>近藤あさみ</h2>
+
+  <nav class="subnav">
+    <a href="/en/asami-kondo-aesthetics/">The Philosophy & Aesthetics of Asami Kondo</a>
+    <span class="sep">·</span>
+    <a href="/kondo-asami-bigaku/" hreflang="ja">日本語版：近藤あさみの哲学と美学</a>
+  </nav>
+
   <div class="lang"><a href="/" hreflang="ja">日本語版はこちら</a></div>
 </header>
+
 
 <main>
 
